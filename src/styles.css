@@ -1,0 +1,15 @@
+.background-img {
+    z-index: -1; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* so that it's behind others */
+}
+
+.h1 {
+    color: aliceblue;
+}
+
+.para {
+    color: aliceblue;
+}
