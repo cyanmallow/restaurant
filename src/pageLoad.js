@@ -1,5 +1,8 @@
 //module pageLoad
-export function pageLoad(){
+export function pageLoad(){    
+    var contentDiv = document.getElementById("content");
+    contentDiv.innerHTML = '';
+
     // img
     var img = document.createElement("img");
     img.src = "bg.jpg";

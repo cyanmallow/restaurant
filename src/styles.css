@@ -5,6 +5,11 @@
     left: 0;
     /* so that it's behind others */
 }
+.nav {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .h1 {
     color: aliceblue;
@@ -12,4 +17,21 @@
 
 .para {
     color: aliceblue;
+}
+
+.about {
+    color: blue;
+}
+
+.menu {
+    color: black;
+    text-align: center;
+}
+
+.menu_pic{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
